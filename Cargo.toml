@@ -1,0 +1,29 @@
+[package]
+name = "candle-neural-networks"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "concrete_example"
+path = "src/1_concrete_example.rs"
+
+[[bin]]
+name = "computing_gradients"
+path = "src/2_computing_gradients.rs"
+
+[[bin]]
+name = "neural_network"
+path = "src/3_neural_network.rs"
+
+[[bin]]
+name = "data_loaders_and_training"
+path = "src/4_data_loaders_and_training.rs"
+
+[[bin]]
+name = "loading_model"
+path = "src/5_loading_model.rs"
+
+[dependencies]
+candle-core = "0.9.1"
+candle-nn = "0.9.1"
+rand = "0.9.2"
