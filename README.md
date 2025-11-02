@@ -13,3 +13,5 @@ cargo run --bin neural_network           # Build a neural network
 cargo run --bin data_loaders_and_training # Train and save model
 cargo run --bin loading_model            # Load and use saved model
 ```
+
+See the [blog post](https://pranitha.dev/posts/neural-networks-with-candle/) for detailed explanations.
